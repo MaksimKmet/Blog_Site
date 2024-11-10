@@ -13,3 +13,14 @@
 .context h4 {
     color: red;
 }
+h1 {
+    color: green;
+}
+
+.box {
+    margin: 2rem;
+    border: 1px solid black;
+    width:max-content;
+    padding: 20px;
+    box-sizing: border-box;
+}
