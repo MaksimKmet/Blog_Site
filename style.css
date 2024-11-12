@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 body {
     height: 200vh;
@@ -41,9 +42,9 @@ h1 {
     /* box-sizing: border-box; */
     box-shadow: 10px 5px 20px  ;
     margin: 3rem auto;
-    position:relative;
+    position: sticky;
     
-    top: 100px;
+    top: 10px;
     background-color: yellow;
     font-size: 20px;
 }
@@ -52,4 +53,43 @@ h1 {
 .new_box h1 {
     color: rebeccapurple;
     margin: auto;
+}
+
+nav {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+nav ul  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height:2rem;
+
+    margin: auto;
+
+
+}
+.li {
+    list-style-type: none;
+
+}
+.li:hover {
+    scale: 1.25;
+    color: aqua;
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+nav:hover{
+    height: 2.5rem;
+}
+.li:active {
+    scale:1;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
