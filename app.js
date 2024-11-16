@@ -11,3 +11,4 @@ function callFunction() {
     htmlContent.innerHTML = randomNumber
 
 }
+
