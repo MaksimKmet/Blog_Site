@@ -1,5 +1,4 @@
 -First Issue adding from index js or ts import files 
     =import from or add path in one file and next add it to main tsx
 
-
-
+-Change NavLinks style used tailwind not css (optional)
