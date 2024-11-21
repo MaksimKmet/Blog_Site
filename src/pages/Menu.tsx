@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import Card from "../components/UI/Card";
 import GroupOfButtons from "../components/UI/GroupOfButtons";
 
 const Menu = () => {
@@ -8,15 +8,9 @@ const Menu = () => {
     
       <GroupOfButtons/>
 
-      <div className="grid grid-cols-3 w-10/12 m-auto ">
+      <div className="">
       <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      
       </div>
     </div>
   );
