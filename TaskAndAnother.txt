@@ -16,3 +16,9 @@
 
 
 -- finish menu and card to rendered
+
+
+1. Card rewrtite to reuse comp card without data
+ but with props we add later in next comp.
+ 2. add data in the next place we have finish our cards 
+ 3. ???

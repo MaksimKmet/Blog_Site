@@ -1,25 +1,44 @@
 import Button from "./Button"
-import { buttonsClasses } from "./ButtonClasses"
+import { buttonsClasses } from "./buttonClasses"
 
-const GroupOfButtons = () => {
+interface stateProps {
+    state: (arg0:string)=> void
+}
+
+const GroupOfButtons = ({state}: stateProps) => {
+
+
+
   return (
     <div className=" w-1/2 grid grid-cols-3 gap-2 m-auto max-h-32 my-4  ">
     <Button children="Pizze" disabled={false} 
     className={buttonsClasses.buttonFilter.class}
-    onClick={buttonsClasses.buttonFilter.function}
+    onClick={()=> state('pizza')}
     />
     <Button children="Przystawki" disabled={false} 
     className={buttonsClasses.buttonFilter.class}
-    onClick={buttonsClasses.buttonFilter.function}
+    onClick={()=> state('appetizer')}
+
+
     />
     <Button children="Napoje" disabled={false} 
     className={buttonsClasses.buttonFilter.class}
-    onClick={buttonsClasses.buttonFilter.function}
+    onClick={()=> state('drinks')}
+
+
     />
 
     <Button children="Desery" disabled={false} 
     className={buttonsClasses.buttonFilter.class}
-    onClick={buttonsClasses.buttonFilter.function}
+    onClick={()=> state('desert')}
+
+
+    />
+    <Button children="PizzaCardBeta" disabled={false} 
+    className={buttonsClasses.buttonFilter.class}
+    onClick={()=> state('pizzaBeta')}
+
+
     />
     
     </div>

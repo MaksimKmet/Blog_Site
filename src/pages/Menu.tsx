@@ -1,15 +1,34 @@
-import Cards from "../components/Cards";
+import { useState } from "react";
 import GroupOfButtons from "../components/UI/GroupOfButtons";
+import PizzaCardBeta from "../components/Menu/PizzaCardBeta";
+import AppetizersCard from "../components/Menu/AppetizersCard";
+import DrinksCard from "../components/Menu/DrinksCard";
+import PizzaCard from "../components/Menu/PizzaCard";
+import DesertCard from "../components/Menu/DesertCard";
 
 const Menu = () => {
+  const [changeMenu, setChangeMenu] = useState("pizza");
+
+  
   return (
     <div>
       <h1 className="text-center text-4xl font-bold">Wloskie Menu Pizzy</h1>
 
-      <GroupOfButtons />
+      <GroupOfButtons state={setChangeMenu} />
 
       <div className="">
-        <Cards />
+        {changeMenu === "pizzaBeta" ? (
+          <PizzaCardBeta />
+        ) : changeMenu === "appetizer" ? (
+          <AppetizersCard />
+        ) : changeMenu === "drinks" ? (
+          <DrinksCard />
+        ) : changeMenu === "pizza" ? (
+          <PizzaCard />
+        ) : changeMenu === "desert" ? (
+          <DesertCard />
+        ) : null // Provide a fallback case
+        }
       </div>
     </div>
   );
