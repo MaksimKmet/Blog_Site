@@ -1,14 +1,14 @@
-import { Menu } from "../dataFIles/pizzaMenu";
-// import Button from "./Button";
-// import { buttonsClasses } from "./ButtonClasses";
-
+import { menu } from "../dataFIles/pizzaMenu";
 
 
 
 const Card = () => {
-// const [render, setRender] = 
-const pizzaItem = Menu.Garnizon.Pizza
-// const PreItem = Menu.
+const pizzaItem = menu.pizzas
+const appetizers = menu.appetizers
+const alcohol = menu.alcohol
+const  coldDrinks = menu.coldDrinks
+const hotDrinks = menu.hotDrinks
+const desserts = menu.desserts
 
 
   return (

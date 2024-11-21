@@ -1,4 +1,4 @@
-import { Menu } from "../dataFIles/pizzaMenu"
+import { menu } from "../dataFIles/pizzaMenu"
 
 export const buttonsClasses = {
     buttonMain: {
@@ -18,7 +18,7 @@ export const buttonsClasses = {
       rounded-md py-3 px-4 text-center shadow-sm border-0 
       hover:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-transparent
       focus-visible:shadow-none cursor-pointer`,
-        function: () => {console.log(Menu)
+        function: () => {console.log(menu)
 
         }
     }

@@ -1,9 +1,12 @@
+import Card from "./UI/Card"
 
 const Cards = () => {
+
+    
   return (
-    <div>
-      
-    </div>
+    <>
+      <Card/>
+    </>
   )
 }
 
