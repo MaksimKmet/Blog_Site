@@ -1,14 +1,18 @@
--First Issue adding from index js or ts import files 
+ LEGEND :
+ {
+    - OPTIONAL
+    -- SECOND OR THIRD PRIORITY 
+    = PRIORITY  
+    == PRIMARY PRIORITY'
+ }
+ 
+ 
+  = finished filter and group of buttons 
+  =render menu  and finishe it today 
+ 
     =import from or add path in one file and next add it to main tsx
 
 -Change NavLinks style used tailwind not css (optional)
 
 
 -- finish menu and card to rendered
--- warner about route fix it 
-        { React Router Future Flag Warning: Relative
-         route resolution within Splat routes is changing 
-         in v7. You can use the `v7_relativeSplatPath` future
-          flag to opt-in early. For more information, see 
-          https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
-           Error Component Stack}
