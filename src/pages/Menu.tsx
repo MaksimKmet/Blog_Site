@@ -6,6 +6,7 @@ const Menu = () => {
     <div>
       <h1 className="text-center text-4xl font-bold">Wloskie Menu Pizzy</h1>
     
+    
       <GroupOfButtons/>
 
       <div className="">
