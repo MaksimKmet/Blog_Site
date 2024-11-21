@@ -8,17 +8,45 @@
  
  
   = finished filter and group of buttons 
-  =render menu  and finishe it today 
- 
-    =import from or add path in one file and next add it to main tsx
-
--Change NavLinks style used tailwind not css (optional)
-
-
+  =render menu  and finishe it today (40% DONE)
 -- finish menu and card to rendered
+ 
+    =import from or add path in one file and next add it to main tsx!
+
+-Change NavLinks style used tailwind not css (optional)?
+
+
 
 
 1. Card rewrtite to reuse comp card without data
  but with props we add later in next comp.
  2. add data in the next place we have finish our cards 
  3. ???
+
+ lAST CHANGES :
+ 1. add appentizer
+ 2. add drinks and deserts
+ 3. To finish Contact page
+ 4. will make a home page 
+ 5. look close to possible change or adding new feature
+6. make all element done 
+7. after we will have aa ready product work well logic good 
+8. finish and add last styling 
+
+
+About Deploying : 
+1. create Backend for website 
+2. create admin panel for upadte data about change 
+3. think about possible feature from the backend 
+
+
+
+Finish line:
+1. create a good quality product and show it to Kuba 
+2. present it and update all changes or adding it only in portfolio
+
+
+Project next: 
+1. Portfolio 
+2. task tracker 
+3. fitness App or Money Saver

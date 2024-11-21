@@ -1,5 +1,5 @@
-import Button from "./Button"
-import { buttonsClasses } from "./buttonClasses"
+import Button from "./UI/Button"
+import { buttonsClasses } from "./UI/buttonClasses"
 
 interface stateProps {
     state: (arg0:string)=> void

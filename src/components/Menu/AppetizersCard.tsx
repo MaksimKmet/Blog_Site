@@ -12,7 +12,7 @@ const AppetizersCard = () => {
         </div>:null
       }
         <img
-          src="https://img.freepik.com/free-photo/slice-crispy-pizza-with-meat-cheese_140725-6974.jpg"
+          src="http://drewnempalona.pl/wp-content/uploads/2023/11/9J9A3240-e1701168332790.png"
           alt=""
           className="w-full"
         />

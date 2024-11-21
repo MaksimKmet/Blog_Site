@@ -1,7 +1,9 @@
+import Information from "../components/UI/Information";
+
 const Services = () => {
   return (
     <div>
-      <h1>Services</h1>
+      <Information/>
     </div>
   );
 };

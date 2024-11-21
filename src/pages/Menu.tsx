@@ -1,5 +1,5 @@
 import { useState } from "react";
-import GroupOfButtons from "../components/UI/GroupOfButtons";
+import GroupOfButtons from "../components/GroupOfButtons";
 import PizzaCardBeta from "../components/Menu/PizzaCardBeta";
 import AppetizersCard from "../components/Menu/AppetizersCard";
 import DrinksCard from "../components/Menu/DrinksCard";

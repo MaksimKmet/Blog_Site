@@ -93,7 +93,7 @@ export const menu = {
       name: "Focaccia Extra",
       description: "(focaccia + suszone pomidory + grana padano)",
       price: "19 zł",
-    },
+       },
     {
       name: "Deska Antipasti na 2 osoby",
       description:
@@ -108,116 +108,144 @@ export const menu = {
       available: " Tylko Na Garnizonie",
     },
   ],
-  pizzas: [
+  pizzas : [
     {
-      name: "1. Margherita",
-      description:
-        "sos pomidorowy, mozzarella, świeża bazylia, oliwa extra vergine",
+      numberInMenu: 1,
+      name: "Margherita",
+      description: "sos pomidorowy, mozzarella, świeża bazylia, oliwa extra vergine",
       price: "27 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "2. Napoli",
-      description:
-        "sos pomidorowy, mozzarella, anchois, kapary, oliwki, oregano",
+      numberInMenu: 2,
+      name: "Napoli",
+      description: "sos pomidorowy, mozzarella, anchois, kapary, oliwki, oregano",
       price: "29 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "3. Classico",
+      numberInMenu: 3,
+      name: "Classico",
       description: "sos pomidorowy, mozzarella, pieczarki, oregano",
       price: "29 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "4. Piccante",
+      numberInMenu: 4,
+      name: "Piccante",
       description:
         "sos pomidorowy, mozzarella, salami piccante, papryka pepperoni, czerwona cebula",
       price: "31 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "5. Melanzana",
-      description:
-        "sos pomidorowy, mozzarella, bakłażan, czosnek, grana padano",
+      numberInMenu: 5,
+      name: "Melanzana",
+      description: "sos pomidorowy, mozzarella, bakłażan, czosnek, grana padano",
       price: "31 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "6. Spinaci",
-      description:
-        "sos pomidorowy, mozzarella, szpinak, czosnek, suszone pomidory",
+      numberInMenu: 6,
+      name: "Spinaci",
+      description: "sos pomidorowy, mozzarella, szpinak, czosnek, suszone pomidory",
       price: "31 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "7. Zucchine",
-      description:
-        "sos pomidorowy, mozzarella, cukinia, czosnek, czerwona cebula",
+      numberInMenu: 7,
+      name: "Zucchine",
+      description: "sos pomidorowy, mozzarella, cukinia, czosnek, czerwona cebula",
       price: "31 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "8. Spianata e Mascarpone",
+      numberInMenu: 8,
+      name: "Spianata e Mascarpone",
       description: "sos pomidorowy, mozzarella, mascarpone, rukola",
       price: "32 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "9. Pepperoni",
-      description:
-        "sos pomidorowy, mozzarella, kiełbaska pepperoni, czosnek, grana padano",
+      numberInMenu: 9,
+      name: "Pepperoni",
+      description: "sos pomidorowy, mozzarella, kiełbaska pepperoni, czosnek, grana padano",
       price: "32 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "10. Insalata",
+      numberInMenu: 10,
+      name: "Insalata",
       description:
         "sos pomidorowy, mozzarella, włoska szynka gotowana, rukola, ricotta, pomidorki cherry, oliwa EV",
       price: "33 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "11. Formaggi e Spianata",
+      numberInMenu: 11,
+      name: "Formaggi e Spianata",
       description:
         "sos pomidorowy, mozzarella, salami piccante, gorgonzola, czarne oliwki, ricotta, grana padano",
       price: "34 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "12. Calabrese",
-      description:
-        "sos pomidorowy, mozzarella, nduja, czerwona cebula, grana padano",
+      numberInMenu: 12,
+      name: "Calabrese",
+      description: "sos pomidorowy, mozzarella, nduja, czerwona cebula, grana padano",
       price: "34 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "13. Caprese e Spianata",
+      numberInMenu: 13,
+      name: "Caprese e Spianata",
       description:
         "sos pomidorowy, mozzarella, salami piccante, świeża mozzarella, świeża bazylia, pomidorki cherry, oliwa EV",
       price: "34 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "14. Nduja",
-      description:
-        "sos pomidorowy, mozzarella, nduja, ricotta, miód czosnkowy, świeża mięta",
+      numberInMenu: 14,
+      name: "Nduja",
+      description: "sos pomidorowy, mozzarella, nduja, ricotta, miód czosnkowy, świeża mięta",
       price: "35 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "15. Tartufo",
-      description:
-        "sos truflowy, mozzarella, rukola, ricotta, czarne oliwki, pieczona papryka",
+      numberInMenu: 15,
+      name: "Tartufo",
+      description: "sos truflowy, mozzarella, rukola, ricotta, czarne oliwki, pieczona papryka",
       price: "36 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "16. Tartufo 2.0",
+      numberInMenu: 16,
+      name: "Tartufo 2.0",
       description: "pasta z czarnych trufli, sos truflowy, mascarpone, rukola",
       price: "36 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "17. Parma",
+      numberInMenu: 17,
+      name: "Parma",
       description:
         "sos pomidorowy, mozzarella, rukola, włoska szynka dojrzewająca, grana padano",
       price: "36 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
-      name: "18. Prosciutto e Mirtilli",
-      description:
-        "konfitura z borówek, mozzarella, szynka dojrzewająca, rukola",
+      numberInMenu: 18,
+      name: "Prosciutto e Mirtilli",
+      description: "konfitura z borówek, mozzarella, szynka dojrzewająca, rukola",
       price: "36 zł",
+      available: ["Morena", "Garnizon"],
     },
     {
+      numberInMenu: null,
       name: "Pizza Miesiąca",
       description: "Zapytaj nas o aktualną kompozycję",
       price: "TBD",
+      available: ["Morena", "Garnizon"],
     },
-  ],
+  ]
 };

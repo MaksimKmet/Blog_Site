@@ -17,6 +17,10 @@ export const buttonsClasses = {
       rounded-md py-3 px-4 text-center shadow-sm border-0 
       hover:bg-gray-100 focus:outline-none focus:outline-2 focus:outline-transparent
       focus-visible:shadow-none cursor-pointer`
+        },
+        buttonMap: {
+            class: `bg-white backface-hidden rounded-md border-2 border-solid box-border text-gray-900 cursor-pointer inline-block font-sans font-bold text-lg tracking-tight leading-snug p-3 relative text-left no-underline transform scale-100 transition-transform duration-200 select-none hover:scale-105 active:translate-y-0.5 focus:outline-none disabled:opacity-50`
+            
         }
     }
     
