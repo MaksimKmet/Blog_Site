@@ -6,16 +6,20 @@ export const menu = {
       name: "Woda mineralna (niegazowana / gazowana)",
       volume: "350 ml",
       price: "5 zł",
+      description: 'info'
     },
-    { name: "Woda mineralna (dzban)", volume: "1 l", price: "12 zł" },
+    { name: "Woda mineralna (dzban)", volume: "1 l", price: "12 zł", description: 'info'
+     },
     {
       name: "Lemoniada domowej roboty (cytryna / grejpfrut / malina / kwiat czarnego bzu)",
       volume: "350 ml",
       price: "10 zł",
+      description: 'info'
+
     },
-    { name: "Lemoniada domowej roboty (dzban)", volume: "1 l", price: "24 zł" },
-    { name: "Mojito (bezalkoholowe)", volume: "350 ml", price: "14 zł" },
-    { name: "Sok (pomarańcza / jabłko)", volume: "350 ml", price: "8 zł" },
+    { name: "Lemoniada domowej roboty (dzban)", volume: "1 l", price: "24 zł", description: 'info' },
+    { name: "Mojito (bezalkoholowe)", volume: "350 ml", price: "14 zł", description: 'info' },
+    { name: "Sok (pomarańcza / jabłko)", volume: "350 ml", price: "8 zł", description: 'info' },
     {
       name: "Coca-Cola (puszka) (klasyczna / zero)",
       volume: "330 ml",
@@ -46,18 +50,25 @@ export const menu = {
     { name: "Tiramisu", price: "12 zł" },
   ],
   alcohol: {
-    available: "Alkohol mamy tylko na garnizonie",
+    
     beer: [
+      
       {
-        name: "Browar Amber (Złote Lwy, Pszeniczniak, Koźlak, Bezalkoholowe)",
+        id: 30,
+        name: "Browar Amber",
+        description: "Złote Lwy, Pszeniczniak, Koźlak, Bezalkoholowe",
+        description2: "lager, ...",
         volume: "0.5 l",
         price: "12 zł",
       },
       {
-        name: "Browar Czarna Owca (Tricity, Odrodzenie, Pszeniczne z brzoskwinią)",
+        id:31,
+        name: "Browar Czarna Owca",
+        description : " Tricity, Odrodzenie, Pszeniczne z brzoskwinią",
         volume: "0.5 l",
         price: "14 zł",
       },
+      // {available: "Alkohol mamy tylko na garnizonie"}
     ],
     cider: { name: "Cydr Sadowski (jabłko / gruszka)", price: "24 zł" },
     wine: [

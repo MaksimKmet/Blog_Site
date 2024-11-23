@@ -25,13 +25,42 @@
 
  lAST CHANGES :
  1. add appentizer
- 2. add drinks and deserts
+    
+    
+    
+    === 2. add drinks and deserts:
+            -Dont forget in future change or add desc 2 to beer 
+            -coffe menu change 
+            -Fix available in pizzaMenu
+            --Think about create parent and chile element and make props or
+              make one with all stuff
+
+
  3. To finish Contact page
  4. will make a home page 
  5. look close to possible change or adding new feature
 6. make all element done 
 7. after we will have aa ready product work well logic good 
 8. finish and add last styling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 About Deploying : 
