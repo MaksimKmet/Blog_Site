@@ -21,7 +21,7 @@ const PizzaCardBeta = () => {
               </div>
             ) : null}
             <img
-              src="https://img.freepik.com/free-photo/slice-crispy-pizza-with-meat-cheese_140725-6974.jpg"
+              src="/src/assets/379240ec4009232cb5e86907d5d42c62.png"
               alt=""
               className="w-full"
             />
