@@ -3,10 +3,10 @@ import Information from "../components/UI/Information";
 
 const Home = () => {
   return (
-    <div>
+    <div className="h-[100rem]">
       <h1>Home</h1>
       <NavLink to="../Menu">Menu</NavLink>
-      <Information/>
+      <Information className="fixed w-full" />
 
     </div>
   );
