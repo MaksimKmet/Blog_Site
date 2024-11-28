@@ -1,10 +1,9 @@
 import { useState } from "react";
 import GroupOfButtons from "../components/GroupOfButtons";
-import PizzaCardBeta from "../components/Menu/PizzaCardBeta";
 import AppetizersCard from "../components/Menu/AppetizersCard";
 import DrinksCard from "../components/Menu/DrinksCard";
-import PizzaCard from "../components/Menu/PizzaCard";
 import DesertCard from "../components/Menu/DesertCard";
+import PizzaCard from "../components/Menu/PizzaCard";
 
 const Menu = () => {
   const [changeMenu, setChangeMenu] = useState("pizza");
@@ -17,14 +16,12 @@ const Menu = () => {
       <GroupOfButtons state={setChangeMenu} />
 
       <div className="">
-        {changeMenu === "pizzaBeta" ? (
-          <PizzaCardBeta />
+        {changeMenu === "pizza" ? (
+          <PizzaCard />
         ) : changeMenu === "appetizer" ? (
           <AppetizersCard />
         ) : changeMenu === "drinks" ? (
           <DrinksCard />
-        ) : changeMenu === "pizza" ? (
-          <PizzaCard />
         ) : changeMenu === "desert" ? (
           <DesertCard />
         ) : null // Provide a fallback case

@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Menu from './pages/Menu'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import CheckPage from './pages/CheckPage'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/Menu' element={<Menu />}></Route>
       <Route path='/Services' element={<Services />}></Route>
       <Route path='/Contact' element={<Contact />}></Route>
+      <Route path='/Entry' element={<CheckPage />}></Route>
     </Routes>
     </>
   )

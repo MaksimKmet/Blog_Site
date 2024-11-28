@@ -34,12 +34,7 @@ const GroupOfButtons = ({state}: stateProps) => {
 
 
     />
-    <Button children="PizzaCardBeta" disabled={false} 
-    className={buttonsClasses.buttonFilter.class}
-    onClick={()=> state('pizzaBeta')}
-
-
-    />
+    
     
     </div>
   )
